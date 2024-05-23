@@ -1,0 +1,50 @@
+.mainBagAltIcon,
+.mainChild,
+.mainItem {
+  position: relative;
+  display: none;
+}
+.mainChild,
+.mainItem {
+  width: 207px;
+  height: 44px;
+  border-radius: var(--br-xl);
+  background-color: var(--main-white);
+  border: 1px solid var(--color-mediumseagreen);
+  box-sizing: border-box;
+}
+.mainBagAltIcon {
+  width: 24px;
+  height: 24px;
+}
+.mainPage,
+.mainList {
+  display: flex;
+  box-sizing: border-box;
+}
+.mainList {
+  width: 1900px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.mainPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--main-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 714px;
+  gap: 41px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 825px) {
+  .mainPage {
+    gap: 20px;
+  }
+}

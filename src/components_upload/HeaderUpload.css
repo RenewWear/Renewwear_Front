@@ -1,0 +1,179 @@
+.uploadIDK {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex: 1;
+  flex-direction: column;
+  min-width: 564px;
+}
+.uploadMypageIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 480px;
+  top: 35px;
+  min-height: 24px;
+}
+.uploadMypage {
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  height: 25px;
+  margin-right: 100px;
+  right: 260px;
+  z-index: 3;
+}
+
+.uploadMyPageText {
+  position: absolute;
+  margin: 0 !important;
+  top: 35px;
+  right: 410px;
+  z-index: 2; 
+
+}
+.uploadHeaderGrandC {
+  display: flex;
+  align-items: flex-start;
+
+  height: 60px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-text-text);
+}
+.uploadHeaderChild {
+  width: 1266px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  color: var(--color-text-subtext);
+}
+
+.uploadHeaderParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-281xl) var(--padding-xs-7);
+  position: relative;
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+ 
+  font-size: var(--body-texts-text-1-size);
+  color: var(--main-white);
+}
+.uploadLogo {
+  margin: 0 !important;
+  width: 244px;
+  height: 44px;
+  position: absolute;
+  top: 31px;
+  left: 241px;
+  font-size: var(--font-size-17xl);
+  line-height: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-mediumseagreen);
+  display: inline-block;
+  z-index: 2;
+}
+.uploadChatIcon {
+  width: 24px;
+  height: 24px;
+  right: 262px;
+}
+.uploadChatIcon,
+.uploadChatText,
+.uploadFavoriteIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 35px;
+  z-index: 2;
+}
+.uploadChatText {
+  width: 49px;
+  right: 207px;
+  line-height: 24px;
+  display: inline-block;
+}
+.uploadFavoriteIcon {
+  width: 24px;
+  height: 24px;
+  right: 366px;
+}
+.uploadFavoriteText,
+.uploadLogout,
+.uploadSell {
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+}
+.uploadFavoriteText {
+  width: 74px;
+  height: 16px;
+  top: 36px;
+  right: 286px;
+  line-height: 24px;
+  z-index: 3;
+}
+.uploadLogout,
+.uploadSell {
+  font-family: var(--font-inter);
+  z-index: 2;
+}
+.uploadLogout {
+  width: 103px;
+  height: 24px;
+  top: 39px;
+  right: 93px;
+}
+.uploadSell {
+  width: 81px;
+  top: 40px;
+  right: 521px;
+  
+}
+.uploadHeaderWrapper {
+  align-self: stretch;
+  min-height: 210px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-black);
+  font-family: var(--body-texts-text-6);
+  background-color: #FFF9F3;
+
+}
+@media screen and (max-width: 1300px) {
+  .uploadIDK {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .uploadHeaderParent {
+    padding-left: var(--padding-131xl);
+    padding-right: var(--padding-131xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+
+  .uploadHeaderParent {
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+}
+

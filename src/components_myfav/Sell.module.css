@@ -1,0 +1,8 @@
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 81px;
+  height: 18px;
+}

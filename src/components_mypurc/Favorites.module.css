@@ -1,0 +1,15 @@
+.child {
+  position: absolute;
+  top: 554px;
+  left: 0;
+  background-color: var(--color-seashell-100);
+  width: 265px;
+  height: 49px;
+  display: flex; /* Flexbox를 사용하여 자식 요소를 가로로 정렬 */
+  justify-content: center; /* 가로 정렬을 중앙으로 설정 */
+  align-items: center; /* 세로 정렬을 중앙으로 설정 */
+}
+
+.child:hover {
+  background-color: var(--color-mediumseagreen);
+}

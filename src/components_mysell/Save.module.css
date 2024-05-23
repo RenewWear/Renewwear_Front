@@ -1,0 +1,10 @@
+.div {
+  position: absolute;
+  top: 36px;
+  left: 1560px;
+  font-size: var(--body-texts-text-6-size);
+  line-height: 24px;
+  display: inline-block;
+  width: 74px;
+  height: 16px;
+}
