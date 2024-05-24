@@ -12,6 +12,7 @@ import Login from "./Login_Register/Login"
 import Register from "./Login_Register/Register";
 import FrameUpload from "./pages_upload/FrameUpload";
 import FrameMain from "./pages_main/FrameMain";
+import FrameSell from "./pages_sell/FrameSell";
 
 function App() {
   const action = useNavigationType();
@@ -58,6 +59,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/upload" element={<FrameUpload />} />
+      <Route path="/sell" element={<FrameSell />} />
     </Routes>
   );
 }
